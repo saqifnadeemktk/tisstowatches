@@ -1,0 +1,100 @@
+   /* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .logo img{
+    width: 80px;
+  }
+  .logo{
+    float: left;
+  }
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    flex-grow: 1;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  
+  /* Main styles */
+  main {
+    padding: 2rem;
+  }
+  
+  #selection-section {
+    text-align: center;
+  }
+  
+  .gender-selection-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gender-card {
+    text-decoration: none;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:end;
+    width: 300px;
+    height: 300px;
+    margin: 1rem;
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .gender-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .men-card {
+    background-image: url('pic1.webp');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .women-card {
+    background-image: url('img1.webp');
+    background-size: cover;
+    background-position: center;
+  }
+  a{
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+  }
+ header a:hover{
+    background-color: black;
+    outline: 2px solid black;
+    border-radius: 5px;
+  }
+  

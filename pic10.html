@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Watch</title>
+    <style>
+        body{
+            background-color:lightslategray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+ .watch-container {
+    overflow: hidden;
+    margin-top: 5%;
+  width: 50%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 50px;
+}
+
+.watch-image {
+  flex: 1;
+  margin-right: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.watch-image img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s;
+}
+
+.watch-image:hover img {
+  transform: scale(1.2);
+}
+
+.watch-description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.watch-description h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.watch-description p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.watch-description button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.watch-description button:hover {
+  background-color: #666;
+}
+
+    </style>
+</head>
+<body>
+<div class="watch-container">
+    
+    <div class="watch-image">
+      <img src="./pic10.webp" alt="Watch">
+    </div>
+    <div class="watch-description">
+      <h2>Quality Watch</h2>
+     <strong>Price 200$</strong>
+      <p> Crafted with meticulous attention to detail, a quality watch is a symbol of sophistication and style, featuring durable materials, precise movements, and timeless elegance. From everyday wear to formal occasions, it adds a touch of refinement and sets you apart as a discerning individual.</p>
+      <button>Buy Now</button>
+    </div>
+  </div>
+  
+</body>
+</html>
